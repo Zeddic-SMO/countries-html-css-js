@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Countries Search</title>
+        <script src="./index.js" async></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <header>
+            <section class="nav">
+                <h1>WORLD COUNTRIES PROJECT</h1>
+            </section>
+            <section class="hero">
+                <h4>To search for a country enter the Name or Capital or Region of the country below. </h4>
+                <div class="search-box">
+                    <input id="inputBox" type="text" placeholder="Name or Capital or Region of Country"
+                        onchange="handleChange()" value="" />
+                </div>
+
+            </section>
+        </header>
+        <main>
+            <section class="search-bar"></section>
+            <section id="countries-display" class="countries-display"></section>
+        </main>
+        <footer>
+            <p>&copy; 2023 - Samuel M. O || ITSkillsCenter Nov 2022 Cohort Project</p>
+        </footer>
+
+    </body>
+
+</html>
